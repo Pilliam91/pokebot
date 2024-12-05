@@ -10,5 +10,5 @@ app.post('/ebay-notifications', (req, res) => {
   res.status(200).send('OK');
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT);
